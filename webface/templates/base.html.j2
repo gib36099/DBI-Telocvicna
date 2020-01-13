@@ -1,0 +1,19 @@
+<html>
+
+<head>
+  <title>Tělocvična</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
+  <link rel="shortcut" href="{{ url_for('static', filename='favico.png')}}">
+<body>
+
+<h1>Tělocvična</h1>
+
+{%  filter markdown %}
+Toto je [odkaz na google](http://google.com/).
+{% endfilter %}
+
+
+</body>
+</head>
+</html>
